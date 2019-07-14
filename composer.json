@@ -1,0 +1,24 @@
+{
+	"name": "poker/app",
+	"keywords": ["poker", "framework" ],
+	"description": "Poker Web Application Development Framework",
+	"homepage": "https://pokerapp.cn",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Levine",
+			"email": "phplevine@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"app\\": "app"
+		}
+	},
+	"require": {
+		"php": ">=7.2.0",
+		"poker/framework": "master"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
